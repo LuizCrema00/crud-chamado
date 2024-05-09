@@ -19,6 +19,7 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 3. ### Instalação de Dependências
 
    composer install
+   
    npm install
    
 5. ### Configuração do Ambiente
