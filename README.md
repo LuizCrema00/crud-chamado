@@ -22,28 +22,11 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 ```bash
 composer install
 
-4. ### Configuração do Ambiente
+1. **Clonar o Repositório:**
 
-Copie o arquivo .env.example para .env e configure as variáveis de ambiente, como conexão com banco de dados.
+   ```bash
+   git clone https://github.com/LuizCrema00/crud-chamado.git
 
-5. ### Migrations e Seeders
-
-```bash
-php artisan migrate
-
-Execute as migrations para criar as tabelas no banco de dados.
-
-```bash
-php artisan db:seed
-
-Execute as seeders para popular as tabelas Categorias e Situacoes
-
-6. ### Execução do Projeto
-
-```bash
-php artisan serve
-
-O projeto deve estar disponível em http://localhost:8000 porta padrao.
 
 
 
