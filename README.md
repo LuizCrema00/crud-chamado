@@ -22,11 +22,11 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 ```bash
 composer install
 
-    ### Configuração do Ambiente
+4. ### Configuração do Ambiente
 
 Copie o arquivo .env.example para .env e configure as variáveis de ambiente, como conexão com banco de dados.
 
-### Migrations e Seeders
+5. ### Migrations e Seeders
 
 ```bash
 php artisan migrate
@@ -38,7 +38,7 @@ php artisan db:seed
 
 Execute as seeders para popular as tabelas Categorias e Situacoes
 
-### Execução do Projeto
+6. ### Execução do Projeto
 
 ```bash
 php artisan serve
